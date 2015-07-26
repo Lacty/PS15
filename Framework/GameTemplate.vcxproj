@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Game\Collision\collision.h" />
     <ClInclude Include="src\Game\game.h" />
     <ClInclude Include="src\Game\GameMain\game_main.h" />
     <ClInclude Include="src\Game\Result\result.h" />
@@ -42,6 +43,7 @@
     <ClInclude Include="src\lib\wav.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Game\Collision\collision.cpp" />
     <ClCompile Include="src\Game\game.cpp" />
     <ClCompile Include="src\Game\GameMain\game_main.cpp" />
     <ClCompile Include="src\Game\Result\result.cpp" />

@@ -1,6 +1,7 @@
 
 #include "title.h"
 #include "../scene_state.h"
+#include "../Collision/collision.h"
 
 
 // •Ï”‚Í‚±‚±‚ÅéŒ¾

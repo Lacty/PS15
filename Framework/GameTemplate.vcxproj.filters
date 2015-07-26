@@ -19,6 +19,9 @@
     <Filter Include="Game\Result">
       <UniqueIdentifier>{17728e7c-0dac-40c3-8664-83a0062a751e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Collision">
+      <UniqueIdentifier>{91933853-b8c6-4ab2-b40d-5932ecfc5b20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\lib\appEnv.hpp">
@@ -108,6 +111,9 @@
     <ClInclude Include="src\Game\Result\result.h">
       <Filter>Game\Result</Filter>
     </ClInclude>
+    <ClInclude Include="src\Game\Collision\collision.h">
+      <Filter>Game\Collision</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">
@@ -185,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="src\Game\Result\result.cpp">
       <Filter>Game\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Collision\collision.cpp">
+      <Filter>Game\Collision</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
