@@ -13,7 +13,7 @@
 
 
 int main() {
-  AppEnv env(640, 480);
+  AppEnv env(1024, 600);
   setSceneState(Title);
 
   while (env.isOpen()) {

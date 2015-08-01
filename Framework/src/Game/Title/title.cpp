@@ -6,12 +6,12 @@
 
 // •Ï”‚Í‚±‚±‚ÅéŒ¾
 namespace TitleVar {
-  int a;
+  
 }
 
 void titleSetup() {
   using namespace TitleVar;
-  a = 0;
+
 }
 
 void titleUpdate(AppEnv& env) {
@@ -23,5 +23,4 @@ void titleUpdate(AppEnv& env) {
 
 void titleDraw() {
   using namespace TitleVar;
-  drawFillCircle(0, 0, 50, 50, 4, Color(1, 1, 1));
 }
